@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>THE CARD SOUL</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.cpm/css2?
+        family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://stavkpath.bootsrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src=""bg.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"><</i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSE</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+        <div class="text-box">
+            <h1>Tarot Classes</h1>
+            <p> Learn Tarot Cards Online<br></p>
+            <a href="" clss="hero-btn"> Visit Us To Know More</a>
+        </div>
+
+        </section>
+
+       <!-------- Course ------->
+
+       <section class="cousre">
+           <h1> Courses We Offer</h1>
+           <p>  Basic, Advanced and Professional Tarot classes </p>
+
+           <div class="row">
+               <div class="cousre-col">
+               <h3>Basic</h3>
+               <p>What is Tarot? How it works? and Basic Introduction to it.
+               </p>
+           </div>
+
+           <div class="row">
+               <div class="cousre-col">
+               <h3>Advanced</h3>
+               <p>Brief explanation and  deep meaning of each card.</p>
+           </div>
+
+           <div class="row">
+               <div class="cousre-col">
+               <h3>Professional</h3>
+               <p>How can Tarot cards answer all the questions. How to predict time with Tarot</p>
+           </div>
+
+       </section>
+
+    
+
+
+
+
+
+        <!------JavaScript for Toggle Menu------>
+        <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+</script>
+
+    </body>
+</html>
